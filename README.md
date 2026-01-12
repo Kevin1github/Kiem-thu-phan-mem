@@ -11,5 +11,5 @@ Bài 1: Bài đọc thêm
 
 Bài 2: Bài tập AI
 - ảnh hoàn thành lần 1
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2ccdd77a-abd2-43f5-a7ef-f4c64c429558" />
+<img width="1871" height="920" alt="image" src="https://github.com/user-attachments/assets/e3333c4c-9062-47b7-97e6-68983e645956" />
 
