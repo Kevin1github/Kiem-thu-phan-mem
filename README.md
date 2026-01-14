@@ -71,13 +71,15 @@ Kỹ thuật áp dụng:
 - Phân vùng tương đương (Equivalence Partitioning)
 - Tái cấu trúc mã nguồn (Refactoring & Clean Code)
 
-Tổng hợp Test Case
-ID,Chức năng,Dữ liệu đầu vào,Mong đợi,Kết quả
-TC_01,countExcellentStudents,"[9.0, 8.5, 7.0, 11.0, -1.0]",2 (Bỏ qua điểm không hợp lệ),PASS
-TC_02,countExcellentStudents,[] (Danh sách rỗng),0,PASS
-TC_03,countExcellentStudents,null,0 (Không gây lỗi crash),PASS
-TC_04,calculateValidAverage,"[0.0, 10.0]",5.0,PASS
-TC_05,calculateValidAverage,"[-5.0, 15.0] (Toàn bộ sai)",0.0,PASS
+### Tổng hợp Test Case
+
+| ID | Chức năng | Dữ liệu đầu vào | Mong đợi | Kết quả |
+| :--- | :--- | :--- | :--- | :--- |
+| **TC_01** | `countExcellentStudents` | `[9.0, 8.5, 7.0, 11.0, -1.0]` | `2` (Bỏ qua điểm không hợp lệ) | **PASS** |
+| **TC_02** | `countExcellentStudents` | `[]` (Danh sách rỗng) | `0` | **PASS** |
+| **TC_03** | `countExcellentStudents` | `null` | `0` (Không gây lỗi crash) | **PASS** |
+| **TC_04** | `calculateValidAverage` | `[0.0, 10.0]` | `5.0` | **PASS** |
+| **TC_05** | `calculateValidAverage` | `[-5.0, 15.0]` (Toàn bộ sai) | `0.0` | **PASS** |
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fe431a19-a64e-4063-8660-f8f5958b2d5e" />
 
