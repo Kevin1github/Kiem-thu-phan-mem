@@ -13,3 +13,13 @@ Bài 2: Bài tập AI
 - ảnh hoàn thành lần 1
 <img width="1871" height="920" alt="image" src="https://github.com/user-attachments/assets/e3333c4c-9062-47b7-97e6-68983e645956" />
 
+Chương 2
+
+Bài 1:
+
+
+Chương 3
+
+Bài 1: Bài đọc thêm
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5669c01e-3865-43eb-b2e2-4eec8773c73c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6d547319-78aa-4bdd-9e38-6b4ec971e094" />
