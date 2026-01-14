@@ -1,3 +1,52 @@
+GIỚI THIỆU:
+
+**A repository for practical exercises, source code, and learning reports.**
+
+* **Họ và tên:** Nguyễn Bá Minh Quang
+* **Mã sinh viên:** BCS230073
+* **Lớp:** 23CS2
+* **Trạng thái:** Completed
+
+---
+
+## Mục lục
+1.  [Tổng quan](#-overview)
+2.  [Repository Structure](#-repository-structure)
+3.  [Chương 1: Nguyên lý của kiểm thử](#-chapter-1-testing-principles)
+4.  [Chương 2: Quy trình kiểm thử](#-chapter-2-testing-process)
+5.  [Chương 3: Kiểm thử tĩnh](#-chapter-3-automated-testing)
+
+---
+
+Overview
+
+Dự án này là một bộ sưu tập toàn diện các bài tập thực hành cho khóa học **Kiểm thử phần mềm**. Mục tiêu bao gồm từ việc viết các bài kiểm thử đơn vị chặt chẽ với JUnit đến việc xây dựng các kịch bản kiểm thử tự động đầu cuối (E2E) với Cypress.
+
+**Công nghệ sử dụng:**
+* **Ngôn ngữ lập trình:** Java (JDK 17), JavaScript.
+
+* **Công cụ:** VS Code, Git, Maven.
+
+* **Khung công tác:** JUnit 5, Cypress.io.
+
+---
+
+## 📂 Repository Structure
+
+```text
+Kiem-thu-phan-mem/
+├── Chương 2 unittest/          # Chapter 2 Exercises (Java Project)
+│   ├── src/main/java/          # Functional Source Code (StudentAnalyzer)
+│   ├── src/test/java/          # Test Case Source Code (JUnit 5)
+│   └── pom.xml                 # Maven Configuration
+├── Chương 3 cypress/           # Chapter 3 Exercises (Cypress Project)
+│   ├── cypress/
+│   │   ├── e2e/                # Test Scenarios (login, cart specs)
+│   │   └── ...
+│   └── package.json
+├── images/                     # Test Evidence Storage
+└── README.md                   # This Documentation File
+
 Báo cáo kiểm thử phần mềm
 
 Chương 1
