@@ -84,8 +84,11 @@ Kỹ thuật áp dụng:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fe431a19-a64e-4063-8660-f8f5958b2d5e" />
 
 Hướng dẫn cài đặt và chạy
+
 Mở terminal và chạy các lệnh sau:
+
 cd "Chương 2 unittest"
+
 mvn test
 
 ## Chương 3: Kiểm thử tự động hóa
@@ -106,5 +109,7 @@ Các kịch bản kiểm thử (Test Scenarios)
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6d547319-78aa-4bdd-9e38-6b4ec971e094" />
 
 cd "Chương 3 cypress"
+
 npm install
+
 npx cypress open
