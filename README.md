@@ -1,4 +1,4 @@
-GIỚI THIỆU:
+## Giới thiệu:
 
 **Kho lưu trữ bài tập thực hành, mã nguồn và báo cáo kết quả học tập**
 
@@ -18,7 +18,7 @@ GIỚI THIỆU:
 
 ---
 
-Overview
+## Overview
 
 Dự án này là một bộ sưu tập toàn diện các bài tập thực hành cho khóa học **Kiểm thử phần mềm**. Mục tiêu bao gồm từ việc viết các bài kiểm thử đơn vị chặt chẽ với JUnit đến việc xây dựng các kịch bản kiểm thử tự động đầu cuối (E2E) với Cypress.
 
@@ -31,7 +31,7 @@ Dự án này là một bộ sưu tập toàn diện các bài tập thực hàn
 
 ---
 
-## 📂 Cấu trúc dự án
+## Cấu trúc dự án
 
 ```text
 Kiem-thu-phan-mem/
@@ -48,9 +48,9 @@ Kiem-thu-phan-mem/
 └── README.md                   # This Documentation File
 ```
 
-Báo cáo kiểm thử phần mềm
+## Báo cáo kiểm thử phần mềm
 
-Chương 1
+## Chương 1
 
 Bài 1: Bài đọc thêm
 - Hoàn thành test vào ngày 5/01/2026
@@ -58,12 +58,12 @@ Bài 1: Bài đọc thêm
 - Nộp ảnh kết quả
 <img width="1861" height="927" alt="image" src="https://github.com/user-attachments/assets/9409f24a-2f04-479f-b644-2678c03cdcbb" />
 
-
 Bài 2: Bài tập AI
 - ảnh hoàn thành lần 1
 <img width="1871" height="920" alt="image" src="https://github.com/user-attachments/assets/e3333c4c-9062-47b7-97e6-68983e645956" />
 
-Chương 2: Quy trình kiểm thử đơn vị
+## Chương 2: Quy trình kiểm thử đơn vị
+
 - Mục tiêu: Áp dụng JUnit 5 để kiểm thử logic xử lý điểm sinh viên (class StudentAnalyzer). Đảm bảo mã nguồn tuân thủ tiêu chuẩn Clean Code và xử lý tốt các trường hợp biên
 - Bài toán: Xử lý một danh sách điểm số (List<Double>), thực hiện đếm số lượng học sinh giỏi và tính điểm trung bình hợp lệ
 Kỹ thuật áp dụng:
@@ -86,7 +86,8 @@ Mở terminal và chạy các lệnh sau:
 cd "Chương 2 unittest"
 mvn test
 
-Chương 3: Kiểm thử tự động hóa
+## Chương 3: Kiểm thử tự động hóa
+
 - Mục tiêu: Sử dụng Cypress để tự động hóa quy trình mua hàng trên trang web SauceDemo
 - Phạm vi: Kiểm thử chức năng, giao diện người dùng và luồng nghiệp vụ
 
