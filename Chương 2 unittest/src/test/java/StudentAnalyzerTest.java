@@ -1,4 +1,3 @@
-// Lưu ý: Import đúng thư viện JUnit 5 (Jupiter)
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
