@@ -114,3 +114,57 @@ cd "Chương 3 cypress"
 npm install
 
 npx cypress open
+
+## Chương 4: Kiểm thử động
+
+### 1. Thông tin kiểm thử
+- **Mục tiêu:** Kiểm thử hiệu năng trang web Wikipedia.
+- **Công cụ sử dụng:** Apache JMeter 5.6.3.
+- **Website mục tiêu:** `https://www.wikipedia.org`
+- **Người thực hiện:** Doan Hoang Quan - BCS230070 - Class 23CS2
+
+### 2. Các kịch bản kiểm thử (Test Scenarios)
+
+### Kịch bản 1: Basic Load (Cơ bản)
+- **Cấu hình:** 10 users, Loop 5.
+- **Mục đích:** Kiểm tra kết nối cơ bản và đảm bảo script hoạt động.
+
+### Kịch bản 2: Heavy Load (Tải nặng)
+- **Cấu hình:** 50 users, Ramp-up 30s.
+- **Hành vi:** Truy cập Trang chủ và một trang nội dung con.
+- **Kết quả:**
+  - **Error Rate:** 0.00% (Hệ thống chịu tải tốt, không có lỗi).
+  - **Avg Response Time:** ~9.4s (Trang chủ) và ~36.5s (Trang con).
+  - **Nhận xét:** Thời gian phản hồi khá cao (độ trễ lớn) khi có 50 người truy cập đồng thời, tuy nhiên server không bị sập (no error).
+
+### Kịch bản 3: Duration Mode (Chạy bền)
+- **Cấu hình:** 20 users chạy liên tục trong 60 giây.
+- **Hành vi:** Truy cập ngẫu nhiên vào các trang History và Science.
+- **Kết quả:**
+  - **Total Samples:** 142 requests đã được xử lý trong 1 phút.
+  - **Throughput:** ~1.8 requests/giây.
+  - **Avg Response Time:** ~8.4s.
+  - **Error Rate:** 0.00%.
+
+### 3. Kết luận
+- Trang web Wikipedia có cơ chế chống Bot (Error 403) nên cần giả lập User-Agent của trình duyệt để test.
+- Hệ thống hoạt động ổn định dưới tải 50 users (không có lỗi HTTP 5xx).
+- Tuy nhiên, Response Time trung bình khá cao (>5s), có thể do độ trễ mạng từ phía client đến server quốc tế.
+
+### 4. Minh chứng (Screenshots)
+- Thread group 1:
+  ![Thread_group_1(1)](https://github.com/user-attachments/assets/c58466a8-5666-4ad8-842e-a7d3b91f0e29)
+  ![Thread_group_1(2)](https://github.com/user-attachments/assets/c448d3cb-41b1-47ac-897b-1737a779741e)
+
+- Thread group 2:
+  ![Thread_group_2(1)](https://github.com/user-attachments/assets/25955f8f-64d0-49c3-b048-09d9edb707ac)
+  ![Thread_group_2(2)](https://github.com/user-attachments/assets/2ea6637f-af78-419f-af85-3f41259f9d56)
+
+- Thread group 3:
+  ![Thread_group_3(1)](https://github.com/user-attachments/assets/799f2152-7a12-4aa6-a0f4-4c60d2c73f5c)
+  ![Thread_group_3(2)](https://github.com/user-attachments/assets/c909a770-d9c1-4c85-bc8d-ec5f5ab7ba3e)
+
+
+
+
+
