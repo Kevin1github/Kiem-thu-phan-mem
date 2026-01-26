@@ -1,0 +1,3 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+GET Hompage,150,1099,47,4515,945.78,33.333%,.54614,69.67,0.09,130620.3
+TOTAL,150,1099,47,4515,945.78,33.333%,.54614,69.67,0.09,130620.3
